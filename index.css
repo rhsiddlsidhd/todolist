@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  background-image: url(images/istockphoto-509927696-1024x1024.jpg);
+}
+
+/* ===================================================== */
+
+.container {
+  background-color: white;
+  min-height: 100vh;
+  margin-top: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* ====================================================== */
+.task_area {
+  border: 1px solid lightgray;
+}
+
+.task-tab {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  position: relative;
+}
+
+.task_areas {
+  padding: 1rem;
+}
+
+#under_line {
+  height: 4px;
+  background-color: pink;
+  position: absolute;
+  width: 65px;
+  left: 0px;
+  top: 52px;
+  padding: 0px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: white;
+}
+.fa-check {
+  margin-right: 2rem;
+}
+
+.fa-check,
+.fa-trash-can {
+  font-size: 2rem;
+}
+
+.task-done {
+  text-decoration: line-through;
+}
+
+.task-tab div {
+  cursor: pointer;
+}
